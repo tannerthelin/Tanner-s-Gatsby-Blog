@@ -54,12 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        This blog is written by <strong>{author}</strong> who shamelessly ripped-off a Gatsby starter template.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+          Follow him on Twitter. 
+        </a> Or don't. Who cares?
       </p>
     </div>
   )
